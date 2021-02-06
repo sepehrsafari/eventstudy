@@ -47,10 +47,10 @@ def add_asterisks(pvalue, value=None):
     return asterisks
 
 
-def plot(time, CAR, *, AR=None, CI=False, var=None, df=None, confidence=0.90, title_x):
+def plot(time, CAR, *, AR=None, CI=False, var=None, df=None, confidence=0.90, title="a"):
 
     fig, ax = plt.subplots()
-    ax.set_title(title_x)
+    ax.set_title(title)
     ax.plot(time, CAR)
     ax.axvline(
         x=0, color="black", linewidth=0.5,

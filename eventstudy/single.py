@@ -196,7 +196,7 @@ class Single:
             index_start=self.event_window[0],
         )
 
-    def plot(self, *, AR=False, CI=True, confidence=0.90):
+    def plot(self, *, AR=False, CI=True, confidence=0.90, Title="AR ttile"):
         """
         Plot the event study result.
         

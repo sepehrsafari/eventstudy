@@ -47,7 +47,7 @@ def add_asterisks(pvalue, value=None):
     return asterisks
 
 
-def plot(time, CAR, *, AR=None, CI=False, var=None, df=None, confidence=0.90, Title =title):
+def plot(time, CAR, *, AR=None, CI=False, var=None, df=None, confidence=0.90, title="AR chart"):
 
     fig, ax = plt.subplots()
     ax.set_title(title)

@@ -196,7 +196,7 @@ class Single:
             index_start=self.event_window[0],
         )
 
-    def plot(self, *, AR=False, CI=True, confidence=0.90, title = ""):
+    def plot(self, *, AR=False, CI=True, confidence=0.90, title_x):
         """
         Plot the event study result.
         
@@ -243,7 +243,7 @@ class Single:
             var=self.var_CAR,
             df=self.df,
             confidence=confidence,
-            title=title,
+            title_x
         )
 
     @classmethod
